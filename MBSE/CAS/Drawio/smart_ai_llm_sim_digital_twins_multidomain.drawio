@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" modified="2026-09-05T16:30:00.000Z" agent="Mozilla/5.0" version="28.2.8" type="device">
+  <diagram id="smart-ai-llm-sim" name="SMART AI LLM-SIM Digital Twin Architecture">
+    <mxGraphModel dx="1800" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+<mxCell id="title" value="SMART AI LLM-SIM — Arquitectura de Gemelo Digital Multidominio" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" parent="1" vertex="1"><mxGeometry x="40" y="20" width="1520" height="40" as="geometry"/></mxCell>
+<mxCell id="sub" value="LLM + Modelica/RuMoCo + ODE/DAE + Kokkos HPC + SciML Julia + O3DE/Godot + Ada SPARK + GraalVM/IKVM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#555555;" parent="1" vertex="1"><mxGeometry x="80" y="65" width="1440" height="30" as="geometry"/></mxCell>
+<mxCell id="l1" value="1. INGENIERÍA / EXPERIENCIA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontStyle=1;align=center;verticalAlign=top;spacingTop=8;" parent="1" vertex="1"><mxGeometry x="40" y="110" width="1520" height="145" as="geometry"/></mxCell>
+<mxCell id="l2" value="2. IA / ORQUESTACIÓN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontStyle=1;align=center;verticalAlign=top;spacingTop=8;" parent="1" vertex="1"><mxGeometry x="40" y="270" width="1520" height="145" as="geometry"/></mxCell>
+<mxCell id="l3" value="3. COMPILACIÓN / SIMULACIÓN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontStyle=1;align=center;verticalAlign=top;spacingTop=8;" parent="1" vertex="1"><mxGeometry x="40" y="430" width="1520" height="180" as="geometry"/></mxCell>
+<mxCell id="l4" value="4. HPC / ACELERACIÓN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontStyle=1;align=center;verticalAlign=top;spacingTop=8;" parent="1" vertex="1"><mxGeometry x="40" y="625" width="1520" height="150" as="geometry"/></mxCell>
+<mxCell id="l5" value="5. GEMELO DIGITAL / VISUALIZACIÓN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontStyle=1;align=center;verticalAlign=top;spacingTop=8;" parent="1" vertex="1"><mxGeometry x="40" y="790" width="1520" height="135" as="geometry"/></mxCell>
+<mxCell id="l6" value="6. INTEGRIDAD / INTEROPERABILIDAD / PLATFORM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;fontStyle=1;align=center;verticalAlign=top;spacingTop=8;" parent="1" vertex="1"><mxGeometry x="40" y="940" width="1520" height="125" as="geometry"/></mxCell>
+<mxCell id="ide" value="IDE / Low-Code Engineering
+Modelica • SysML • IFC/BIM • CAD/BIM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="70" y="145" width="240" height="75" as="geometry"/></mxCell>
+<mxCell id="spec" value="Especificaciones
+SRS • ADR • contratos de modelos
+Requisitos / trazabilidad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="340" y="145" width="240" height="75" as="geometry"/></mxCell>
+<mxCell id="twin" value="Digital Twin Studio
+Ingeniería • Arquitectura • Construcción" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="610" y="145" width="260" height="75" as="geometry"/></mxCell>
+<mxCell id="data" value="Datos de campo
+IoT • sensores • BMS • SCADA • GIS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="900" y="145" width="240" height="75" as="geometry"/></mxCell>
+<mxCell id="users" value="Ingenieros / arquitectos / operadores
+HITL + aprobación" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="1170" y="145" width="250" height="75" as="geometry"/></mxCell>
+<mxCell id="llm" value="LLM Gateway
+Open models • Ollama / vLLM
+RAG + embeddings" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="80" y="305" width="240" height="80" as="geometry"/></mxCell>
+<mxCell id="agent" value="AI Engineering Agents
+LangGraph / MCP
+modelación • diagnóstico • optimización" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="350" y="305" width="250" height="80" as="geometry"/></mxCell>
+<mxCell id="rag" value="Knowledge / RAG
+Qdrant + documentación
+Modelica / IFC / normas / proyectos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="630" y="305" width="250" height="80" as="geometry"/></mxCell>
+<mxCell id="planner" value="Simulation Planner
+ODE/DAE selection • experiment design
+parametrización • sensitivity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="910" y="305" width="260" height="80" as="geometry"/></mxCell>
+<mxCell id="guard" value="AI Guardrails
+validación física • límites • políticas
+human approval" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="1200" y="305" width="270" height="80" as="geometry"/></mxCell>
+<mxCell id="rumoca" value="RuMoCo
+Rust-native Modelica compiler
+Modelica → symbolic DAE contract" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="70" y="465" width="250" height="95" as="geometry"/></mxCell>
+<mxCell id="jmodelica" value="JModelica-compatible integration
+FMI / Modelica artifacts
+legacy model workflow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="350" y="465" width="250" height="95" as="geometry"/></mxCell>
+<mxCell id="sciml" value="Julia SciML
+DifferentialEquations.jl
+ODE • DAE • SDE • optimization • AD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="630" y="465" width="270" height="95" as="geometry"/></mxCell>
+<mxCell id="fmi" value="FMI / SSP Co-Simulation
+FMU exchange • orchestration
+multi-domain coupling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="930" y="465" width="250" height="95" as="geometry"/></mxCell>
+<mxCell id="simapi" value="Simulation API
+Python / Julia / REST / gRPC
+experiment registry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="1210" y="465" width="260" height="95" as="geometry"/></mxCell>
+<mxCell id="kokkos" value="Kokkos HPC Backend
+C++ performance portability
+CPU / CUDA / HIP / SYCL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="100" y="665" width="280" height="80" as="geometry"/></mxCell>
+<mxCell id="kernel" value="Numerical kernels
+ODE/DAE residuals • Jacobians
+linear algebra • sparse solvers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="410" y="665" width="280" height="80" as="geometry"/></mxCell>
+<mxCell id="gpu" value="GPU / HPC Cluster
+CUDA / ROCm / CPU
+MPI / OpenMP / distributed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="720" y="665" width="250" height="80" as="geometry"/></mxCell>
+<mxCell id="autodiff" value="Differentiable Simulation
+SciMLSensitivity / AD
+calibration • inverse problems" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="1000" y="665" width="250" height="80" as="geometry"/></mxCell>
+<mxCell id="opt" value="Optimization
+parameter estimation • MPC
+energy / structural / thermal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="1280" y="665" width="220" height="80" as="geometry"/></mxCell>
+<mxCell id="o3de" value="Open 3D Engine (O3DE)
+high-fidelity industrial visualization
+C++ / PhysX / scripting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="100" y="825" width="280" height="75" as="geometry"/></mxCell>
+<mxCell id="godot" value="Godot Engine
+open-source interactive visualization
+HMI / training / configurator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="410" y="825" width="260" height="75" as="geometry"/></mxCell>
+<mxCell id="bim" value="AEC Digital Twin
+BIM / IFC • GIS • spatial model
+buildings / infrastructure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="700" y="825" width="270" height="75" as="geometry"/></mxCell>
+<mxCell id="realtime" value="Real-time Twin Runtime
+WebSocket / MQTT / DDS
+state synchronization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="1000" y="825" width="250" height="75" as="geometry"/></mxCell>
+<mxCell id="xr" value="XR / Simulation UI
+VR • AR • desktop • web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="1280" y="825" width="220" height="75" as="geometry"/></mxCell>
+<mxCell id="spark" value="Ada SPARK
+High-integrity control plane
+contracts • proof • runtime checks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="70" y="970" width="260" height="70" as="geometry"/></mxCell>
+<mxCell id="graal" value="GraalVM
+Java/Scala/Kotlin services
+Native Image / polyglot" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f2937;strokeColor=#111827;fontColor=#ffffff;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="360" y="970" width="260" height="70" as="geometry"/></mxCell>
+<mxCell id="ikvm" value="IKVM
+Java bytecode ↔ .NET IL
+legacy Java/.NET interoperability" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f2937;strokeColor=#111827;fontColor=#ffffff;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="650" y="970" width="260" height="70" as="geometry"/></mxCell>
+<mxCell id="platform" value="Platform Services
+Kubernetes • Docker • PostgreSQL
+MinIO • Kafka • OpenTelemetry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f2937;strokeColor=#111827;fontColor=#ffffff;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="950" y="970" width="280" height="70" as="geometry"/></mxCell>
+<mxCell id="security" value="Safety &amp; Governance
+SBOM • signing • audit
+model/version provenance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;align=center;verticalAlign=middle;" parent="1" vertex="1"><mxGeometry x="1260" y="970" width="250" height="70" as="geometry"/></mxCell>
+<mxCell id="e1" value="specification" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="ide" target="spec" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e2" value="requirements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="spec" target="agent" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e3" value="engineering context" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="twin" target="agent" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e4" value="telemetry / documents" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="data" target="rag" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e5" value="HITL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="users" target="guard" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e6" value="reasoning" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="llm" target="agent" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e7" value="grounding" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="rag" target="agent" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e8" value="simulation plan" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="agent" target="planner" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e9" value="constraints" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="planner" target="guard" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e10" value="validated model" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="guard" target="rumoca" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e11" value="Modelica / FMI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="rumoca" target="jmodelica" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e12" value="DAE / equations" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="rumoca" target="sciml" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e13" value="FMU" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="jmodelica" target="fmi" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e14" value="results" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="sciml" target="simapi" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e15" value="co-simulation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="fmi" target="simapi" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e16" value="simulation state" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="simapi" target="twin" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e17" value="numerical kernels" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="sciml" target="kernel" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e18" value="portable backend" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="kernel" target="kokkos" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e19" value="accelerated execution" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="kokkos" target="gpu" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e20" value="differentiation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="sciml" target="autodiff" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e21" value="optimization" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="autodiff" target="opt" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e22" value="twin state" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="simapi" target="o3de" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e23" value="twin state" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="simapi" target="godot" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e24" value="runtime" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="o3de" target="realtime" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e25" value="runtime" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="godot" target="realtime" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e26" value="BIM state" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="realtime" target="bim" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e27" value="interaction" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="realtime" target="xr" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e28" value="trusted services" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="spark" target="platform" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e29" value="services" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="graal" target="platform" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e30" value="Java/.NET bridge" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="ikvm" target="graal" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e31" value="audit / provenance" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="platform" target="security" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e32" value="governance" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="security" target="guard" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="e33" value="safety contracts" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" parent="1" source="spark" target="guard" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
